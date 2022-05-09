@@ -1,0 +1,55 @@
+h1
+{
+  color:dodgerblue;
+}
+h3
+{
+  color:dodgerblue;
+}
+button
+{
+  background-color:slateblue;
+  borde:none;
+  color:white;
+    padding:15px 32px;
+  text-decoration:none;
+  display: inline-block;
+  font-size:12px;
+  border-radius: 12px;
+  cursor:pointer;
+}
+ .container{
+           text-align: center;
+       }
+input{
+  border-color:green;
+  border-width: medium thin;
+}
+select{
+ width:30%;
+  padding:12px 8px;
+  margin:8px 0;
+  boxsizing:border-box;
+  border-color:green;
+  border-width:medium thin;
+}
+textarea{
+ width:30%;
+  padding:12px 8px;
+  margin:8px 0;
+  boxsizing:border-box;
+  border-color:green;
+  border-width:medium thin;
+}
+input[type="text"]{
+  width:30%;
+  padding:12px 8px;
+  margin:8px 0;
+  boxsizing:border-box;
+}
+input[type="password"]{
+  width:30%;
+  padding:12px 8px;
+  margin:8px 0;
+  boxsizing:border-box;
+}

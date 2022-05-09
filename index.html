@@ -1,8 +1,52 @@
 <html>
-	<head>
-		<title>My First WebPage</title>
-	</head>
-	<body>
-		<h1>This is my first webpage. I'm so excited.</h1>
-	</body>
+    <head>
+      <title>My First WebPage</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <img src="https://media-exp1.licdn.com/dms/image/C510BAQGolIxX2U0r1Q/company-logo_200_200/0/1548408878726?e=2147483647&v=beta&t=WCquaglLdhzoB54s0QSWUZbMp2OQcgnteTmZnHBuJ8E" alt="1000coders Logo"/>
+    <h1> Welcome to 10000 Coders Programming Language </h1></div>
+      <div id="box-1">
+    <p>Hello guys,<br><br>
+    Welcome to the HTML/CSS programming excercise 1000 coders.This will test your basics in html<br>
+ and css.You need to recreate the document you are reading now using HTML/CSS.<span><u> Make sure that<br>the page looks exactly like this document.</span></u></p></div>
+    <h3>General Instructions</h3>
+    <ol>
+      <li><span>There will be a 15px margin between all elements in the form shown below</span></li>
+      <li><span>Use external CSS for styling</span></li>
+      <li><span>This excercise will cover the following constructs of HTML</span></li>
+      <ul>
+        <li><span>HTML Form</span></li>
+        <li><span>Text inputs with Placeholders</span></li>
+        <li><span>Text area</span></li>
+      <li> <span>Password input</span></li>
+    <li><span>Select drop-down box</span></li>
+    <li><span>Radio button</span></li>
+  <li><span>Checkboxes and</li></span>
+<li><span>Buttons</span></li>
+  <h4>so,let's get started.All the best!<h4>
+    <label for="name"> Full Name </label>
+    <input type="text" id="name" name="name"      placeholder="Enter your first name" ><br>
+    <label for="pwd"> Select Pin</label>
+    <input type="password" id="pwd" name="pwd" placeholder="Enter your secret pin"><br>
+    <label for="gender"> Gender </label>
+    <input type="radio" id="male" name="gender" value"male">
+    <label for="male"> Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female"> Female </label><br>
+    <label for="expert"> i am expert in </label>
+    <input type="checkbox" id="expert" name="expert" value="html">
+    <label for="html">HTML</label>
+    <input type="checkbox" id="expert" name="expert" value="css">
+    <label for="css">CSS</label><br>
+    <label for="branch">My field of study is</label>
+    <select name="branch" id="branch">
+      <option value="branch">Select your branch using this select dropdown</option>
+    </select>
+    <br>
+    <label for="yourself">Tell more about yourself</label><textarea id="yourself" name="yourself" rows="4" cols="50" placeholder="This is textarea.Enter your description."></textarea></form>
+    <br><br>
+    <button type="button">Submit Form</button>
+    </body>
 </html>
